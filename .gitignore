@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+esp32/secrets.h
+.venv/
+data/pending_thingsboard_events.jsonl
+.env
+*.log
+esp32/ESP32_Checkout_OTA/secrets.h
+
+# Local secrets - NEVER commit
+esp32/secrets.h
+esp32/ESP32_Checkout_OTA/secrets.h
+
+# Runtime offline queue
+data/pending_thingsboard_events.jsonl
+
+tools/cloudflared.exe
+
+# YOLO generated cache
+*.cache
